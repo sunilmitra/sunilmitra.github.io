@@ -175,7 +175,7 @@ button.slider-switch:hover {
 .img-wrap img {
 	position: absolute;
 	display: block;
-	height: calc(100% + 0.2px);
+	height: calc(100% + 0.4px);
 	opacity: 0.5;
 }
 
