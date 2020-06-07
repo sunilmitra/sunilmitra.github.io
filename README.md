@@ -1,18 +1,7 @@
-Draggable Dual-View Slideshow
-=========
+Restaurant OnePage HTML5 restaurant Template
+========
+<img src="https://cloud.githubusercontent.com/assets/10640964/8260476/cfaac5a0-16e5-11e5-8fc8-e9d3f46796e1.jpg" />
 
-A draggable slideshow with two views: fullscreen and small carousel. In fullscreen view, a related content area can be viewed.
-
-[Article on Codrops](http://tympanus.net/codrops/?p=19332)
-
-[Demo](http://tympanus.net/Development/DraggableDualViewSlideshow/)
-
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
-
-Read more here: [License](http://tympanus.net/codrops/licensing/)
-
-[Dragdealer.js 0.9.7](http://github.com/skidding/dragdealer) by Ovidiu Cherecheș
-
-Images by [Unsplash](http://unsplash.com)
-
-[© Codrops 2014](http://www.codrops.com)
+<a href="http://themefisher.com/download/restaurant">Live Preview</a>
+========
+Restaurant is a html5 one page landing page template developed based on twitter bootstrap 3.2. It can be used as show case for your restaurant website .We organized file structure and descriptive comments on codes will enable your showcase easy to maintain.

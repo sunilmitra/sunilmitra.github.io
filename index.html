@@ -1,725 +1,453 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Little chef in me</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Luxe Kitchen</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- CSS
+        ================================================ -->
+        <!-- Owl Carousel -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- bootstrap.min css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Font-awesome.min css -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/animate.min.css">
 
+		<link rel="stylesheet" href="css/main.css">
+        <!-- Responsive Stylesheet -->
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- Js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+	</head>
+	<body>
+	<!--
+	header-img start 
+	============================== -->
+    <section id="hero-area">
+      <img class="img-responsive" src="images/header-new-resize.jpeg" alt="">
+    </section>
+	<!--
+    Header start 
+	============================== -->
+	<nav id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <nav class="navbar navbar-default">
+                          <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                                  <a class="navbar-brand" href="#">
+                                    Luxe Kitchen by Madhu
+                                  </a>
 
-        <link rel="stylesheet" href="assets/css/skills/progressbar.css">
-        <link rel="stylesheet" href="assets/css/skills/style.css">
-        <!--<link rel="stylesheet" href="assets/css/navmenu/styles.css">-->
-        <link rel="stylesheet" href="assets/css/portfolio.jquery.css">
-        <link rel="stylesheet" href="assets/css/fonticons.css">
-        <link rel="stylesheet" href="assets/style.css">
-        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+                            </div>
 
-
-        <!--For Plugins external css-->
-        <link rel="stylesheet" href="assets/css/teamslide.css" />
-        <link rel="stylesheet" href="assets/css/plugins.css" />
-
-        <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body data-spy="scroll" data-target=".navbar-collapse">
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
-        <header id="main_menu" class="header navbar-fixed-top">            
-            <div class="main_menu_bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="nave_menu">
-                            <nav class="navbar navbar-default" id="navmenu">
-                                <div class="container-fluid">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        <a class="navbar-brand" href="#home">
-                                            <img src="assets/images/logo.png"/>
-                                        </a>
-                                    </div>
-
-                                    <!-- Collect the nav links, forms, and other content for toggling -->
-
-
-
-                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                                        <ul class="nav navbar-nav navbar-right">
-                                            <li><a href="#home">Home</a></li>
-                                            <li><a href="#choose">Recipes</a></li>
-                                            <li><a href="#portfolio">Gallery</a></li>
-                                            <li><a href="#about"> About us</a></li>
-                                            <li><a href="#blog">Blog</a></li>
-                                            <li><a href="#contact">Contact</a></li>
-
-                                            
-                                            <li>
-                                                <a href="#"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                                    <span class="glyphicon glyphicon-search"></span></a>
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <form class="navbar-form" role="search">
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" placeholder="Search">
-                                                            </div>
-                                                        </form>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-
-                                        
-                                    </div>
-
-                                </div>
-                            </nav>
-                        </div>	
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              <ul class="nav navbar-nav navbar-right" id="top-nav">
+                                <li><a href="#hero-area">Home</a></li>
+                                <li><a href="#about-us">about us</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#price">menu</a></li>
+                                <li><a href="#subscribe">news</a></li>
+                                <li><a href="#contact-us">contacts</a></li>
+                              </ul>
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
                     </div>
-
-                </div>
-
-            </div>
-        </header> <!--End of header -->
-
-
-
-
-
-        <section id="home" class="home">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 ">
-                            <div class="main_home_slider">
-                                <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                        <h1>LITTLE CHEF IN ME</h1>
-                                        
-
-                                        <div class="home_btn">
-                                            <a href="" class="btn btn-primary">LEARN MORE</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                        <h1>LITTLE CHEF IN ME</h1>
-                                        
-
-                                        <div class="home_btn">
-                                            <a href="" class="btn btn-primary">LEARN MORE</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="single_home_slider">
-                                    <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                        <h1>LITTLE CHEF IN ME</h1>
-                                       
-
-                                        <div class="home_btn">
-                                            <a href="" class="btn btn-primary">LEARN MORE</a>
-                                        </div>
-
-                                    </div>
-                                </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+	</nav><!-- header close -->
+    <!--
+    Slider start
+    ============================== -->
+    <section id="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="title">
+                            <h3>Featured <span>Works</span></h3>
+                        </div>
+                        <div id="owl-example" class="owl-carousel">
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-1.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-2.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-4.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-5.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-6.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-7.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-8.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-responsive" src="images/slider/slider-img-9.jpg" alt="">
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <section id="service" class="service">
-            <div class="container">
-                <div class="row">
-                    <div class="service_border_raund text-center"></div>
-                    <div class="main_service_area sections text-center">
-                        <div class="head_title text-center">
-                            <h2>what we do?</h2>
-                            <div class="separator"></div>
-
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="single_service">
-                                <div class="single_service_icon">
-                                    <img src="assets/images/service.png" alt="" />
-                                </div>
-
-                                <h3>INDIAN</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc, at ullamcorper turpis gravida nec. 
-                                    Praesent eu ultrices nunc.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="single_service">
-                                <div class="single_service_icon">
-                                    <img src="assets/images/service2.png" alt="" />
-                                </div>
-
-                                <h3>ITALIAN</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc, at ullamcorper turpis gravida nec. 
-                                    Praesent eu ultrices nunc.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="single_service">
-                                <div class="single_service_icon">
-                                    <img src="assets/images/service3.png" alt="" />
-                                </div>
-
-                                <h3>EVERYTHING ELSE</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc, at ullamcorper turpis gravida nec. 
-                                    Praesent eu ultrices nunc.</p>
-                            </div>
-                        </div>
-
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+    </section><!-- slider close -->
+    <!--
+    about-us start
+    ============================== -->
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="200ms" data-wow-delay="250ms" ><span>Luxe Kitchen by Madhu</span> </br> Where food speaks with your <span>palate</span>
+                        </h1>
                     </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="choose" class="choose greenbackground">
-            <div class="container">
-                <div class="row">
-                    <div class="main_choose_area sections text-center">
-                        <div class="lesson_title">                      
-                            <p>WHY CHOOSE LITTLE CHEF IN ME</p>
-                        </div>
-                        <div class="main_choose_content">
-                            <div class="single_choose_content">
-                                <div class="singel_choose_img">
-                                    <img src="assets/images/choose.png" alt="" />
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #call-to-action close -->
+    <!--
+    blog start
+    ============================ -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading">Latest <span>From</span> the <span>Blog</span></h1>
+                        <ul>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+                                <div class="blog-img">
+                                    <img src="images/blog/blog-img-1.jpeg" alt="blog-img">
                                 </div>
-
-                                <h2>BECAUSE WE HAVE SKILLS</h2>
-                                <p>Suspendisse ac nulla eros. Vestibulum elementum placerat erat ac maximus. 
-                                    Aliquam quis nisi quis arcu dapibus ornare. Donec vel ex urna. Ut in odio ultricies 
-                                    mauris fringilla placerat commodo in augue. Integer at eros quam. Fusce ac lorem vehicula, 
-                                    rutrum velit pharetra, euismod nunc. Cum sociis natoque penatibus et magnis dis parturient
-                                    montes, nascetur ridiculus mus.</p>
-                            </div>
-                        </div>
+                                <div class="content-right">
+                                    <h3>Yummy tummy... Veg Nuggets</h3>
+                                    <p>The quicky... veg nuggets great snack...</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
+                                <div class="blog-img">
+                                    <img src="images/blog/blog-img-2.jpeg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Dry Fruit Custard with mango</h3>
+                                    <p>Dessert and healthy too...</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="500ms">
+                                <div class="content-left">
+                                    <h3>Pizza- Kids favorite</h3>
+                                    <p>Prepared in true Italian style, at home with just oven...</p>
+                                </div>
+                                <div class="blog-img-2">
+                                    <img src="images/blog/blog-img-3.jpg" alt="blog-img">
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="600ms">
+                                <div class="content-left">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+                                </div>
+                                <div class="blog-img-2">
+                                    <img src="images/blog/blog-img-4.jpg" alt="blog-img">
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="700ms">
+                                <div class="blog-img">
+                                    <img src="images/blog/blog-img-5.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Multigrain Loaf</h3>
+                                    <p>Prepare french styled Loaf at your home...</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="800ms">
+                                <div class="blog-img">
+                                    <img src="images/blog/blog-img-6.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Refreshing water melon juice</h3>
+                                    <p>Summer is here, so the watermelons...</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="btn btn-default btn-more-info wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" href="#" role="button">More Info</a>
                     </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <section id="portfolio" class="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="main_mix_content text-center sections">
-                        <div class="head_title">
-                            <h2>OUR PORTFOLIO</h2>
-                        </div>
-                        <div class="main_mix_menu">
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #blog close -->
+    <!--
+    price start
+    ============================ -->
+    <section id="price">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">our <span>MENU</span> the <span>PRICE</span></h1>
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+                        <div class="pricing-list">
+                            <div class="title">
+                                <h3>Featured <span>on the week</span></h3>
+                            </div>
                             <ul>
-                                <li class="btn btn-primary filter" data-filter="all">FISH</li>
-                                <li class="btn btn-primary filter" data-filter=".cat1">MEAT</li>
-                                <li class="btn btn-primary filter" data-filter=".cat2">OLIVE OIL</li>
-                                <li class="btn btn-primary filter" data-filter=".cat3">SPANISH</li>
-                                <li class="btn btn-primary filter" data-filter=".cat4">TOP 10</li>
+                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Pancakes n' Such</h2>
+                                            <div class="border-bottom"></div>
+                                            <span>$ 25.00</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                    </div>
+                                </li>
+                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Homestyle Chicken Pot Pie</h2>
+                                            <div class="border-bottom"></div>
+                                            <span>$ 10.00</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                    </div>
+                                </li>
+                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Cereal, Panecillos y Frutas </h2>
+                                            <div class="border-bottom"></div>
+                                            <span>$ 5.00</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                    </div>
+                                </li>
+                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Meat of Skewers</h2>
+                                            <div class="border-bottom"></div>
+                                            <span>$ 15.00</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                    </div>
+                               </li>
+                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="700ms">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Steak with a Garlic and Parsley Risotto</h2>
+                                            <div class="border-bottom"></div>
+                                            <span>$ 75.00</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                    </div>
+                                </li>
+                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="800ms">
+                                    <div class="item">
+                                        <div class="item-title">
+                                            <h2>Caesar Salad</h2>
+                                            <div class="border-bottom"></div>
+                                            <span>$ 7.00</span>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-default pull-right wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" href="#" role="button">More Info</a>
+                        </div>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #price close -->
+    <!--
+    subscribe start
+    ============================ -->
+    <section id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms"> SUBSCRIBE <span>to our</span> NEWSLETTER</h1>
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Subsribe to our news letter.... we will keep you upadated with latest cooking trends </p>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Enter your email to subscribe...">
+                                    <div class="input-group-addon">
+                                        <button class="btn btn-default" type="submit">subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #subscribe close -->
+    <!--
+    CONTACT US  start
+    ============================= -->
+    <section id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">our <span>CONTACT US</span></h1>
+                        <h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">Sign Up for <span>Email Alerts</span> </h3>
+                        <form>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Write your full name here...">
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
+                                <input type="text" class="form-control" placeholder="Write your email address here...">
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
+                                <textarea class="form-control" rows="3" placeholder="Write your message here..."></textarea>
+                            </div>
+                        </form>
+                        <a class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">send your message</a>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+    </section><!-- #contact-us close -->
+    <!--
+    footer  start
+    ============================= -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="200ms">
+                        <h3>CONTACT <span>INFO</span></h3>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                  <h4><i class="fa fa-mobile"></i>Mobile</h4>
+                                  <p>7829187340</p>
+                                    
+                                </li>
+                                <li>
+                                  <h4><i class="fa fa-map-marker"></i>Address</h4>
+                                  <p>Goyalco Orchid Lakeview</p>
+                                </li>
+                                <li>
+                                  <h4><i class="fa fa-envelope"></i>E mail</h4>
+                                  <p>luxekitchenindia@gmail.com</p>
+                                  
+                                </li>
                             </ul>
                         </div>
-
-                        <div id="mixcontent" class="mixcontent">
-                            <div class="col-md-4 mix cat1 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf1.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text">
-                                            <h2>INGREDIENTS</h2>
-                                            <p>ARE IMPORTANT FOR COOKING ?</p>
-                                            <a href=""><i class="lnr lnr-plus-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mix cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf2.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text">
-                                            <h2>INGREDIENTS</h2>
-                                            <p>ARE IMPORTANT FOR COOKING ?</p>
-                                            <a href=""><i class="lnr lnr-plus-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mix cat1 cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf3.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text">
-                                            <h2>INGREDIENTS</h2>
-                                            <p>ARE IMPORTANT FOR COOKING ?</p>
-                                            <a href=""><i class="lnr lnr-plus-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mix cat3 cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf4.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text">
-                                            <h2>INGREDIENTS</h2>
-                                            <p>ARE IMPORTANT FOR COOKING ?</p>
-                                            <a href=""><i class="lnr lnr-plus-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mix cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf5.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text">
-                                            <h2>INGREDIENTS</h2>
-                                            <p>ARE IMPORTANT FOR COOKING ?</p>
-                                            <a href=""><i class="lnr lnr-plus-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mix cat1 cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf1.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text">
-                                            <h2>INGREDIENTS</h2>
-                                            <p>ARE IMPORTANT FOR COOKING ?</p>
-                                            <a href=""><i class="lnr lnr-plus-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="portfolio_btn_area">
-                                <a href="" class="btn btn-md">LOAD MORE</a>
-                            </div>
-                            <div class="gap"></div>
-                        </div>
-                    </div>                     
+                    </div>
                 </div>
-            </div>
-        </section> <!-- End of portfolio two Section -->        
-
-
-
-
-
-
-        <section id="newsletter" class="newsletter text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="main_newsletter sections">
-                        <div class="col-sm-12">
-                            <div class="single_newsletter_head">
-                                <h2>JOIN OUR NEWSLETTER</h2>
-                                <p>Suspendisse ac nulla eros. Vestibulum elementum placerat erat ac maximus. 
-                                    Aliquam quis nisi quis arcu dapibus ornare. Donec vel ex urna. Ut in odio ultricies
-                                    mauris fringilla placerat commodo in augue. </p>
-                            </div>
-
-                            <div class="single_sewsletter_content">
-                                <div class="row">
-                                    <div class="col-sm-8 col-sm-offset-2">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" placeholder="first name" required="">
-                                            <input type="submit" value="SUBSCRIBE" class="btn btn-primary"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="700ms">
+                        <h3>LATEST <span>BLOG POSTS</span></h3>
+                        <div class="blog">
+                            <ul>
+                                <li>
+                                    <h4><a href="#">Nov 9-2014</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
+                                </li>
+                                <li>
+                                    <h4><a href="#">Sep 8-2014</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
+                                </li>
+                            </ul>                
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="1100ms">
+                        <div class="gallary">
+                            <h3>PHOTO <span>STREAM</span></h3>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="images/photo/photo-1.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/photo/photo-2.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/photo/photo-3.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/photo/photo-4.jpg" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-media-link">
+                            <h3>Follow <span>US</span></h3>
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/platefullofpassion/">
+                                        <i class="fa fa-instagram"></i>
 
-
-       
-
-
-        <section id="blog" class="blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <div class="main_blog_area text-center sections">
-                            <div class="head_title">
-                                <h2>LATEST FROM BLOG</h2>
-                                <div class="separator"></div>
-                                <p>Suspendisse ac nulla eros. Vestibulum elementum placerat erat ac maximus. 
-                                    Aliquam quis nisi quis arcu dapibus ornare. Donec vel ex urna. Ut in odio 
-                                    ultricies mauris fringilla placerat commodo in augue. </p>
-                            </div>
-
-                            <div class="main_blog_content">
-                                <ul class="main_blog">
-                                    <li class="single_blog_content">
-
-                                        <h4>READ THIS FIRST</h4>
-                                        <h6><i class="fa fa-clock-o"></i> 4 day ago</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc.</p>
-
-                                        <div class="separator3"></div>
-
-                                        <p class="blog_love"><i class="fa fa-heart-o"></i> 12</p>
-
-                                    </li>
-                                    <li class="single_blog_content">
-                                        <h4>READ THIS FIRST</h4>
-                                        <h6><i class="fa fa-clock-o"></i> 4 day ago</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc.</p>
-
-                                        <div class="separator3"></div>
-
-                                        <p class="blog_love"><i class="fa fa-heart-o"></i> 12</p>
-                                    </li>
-                                    <li class="single_blog_content">
-                                        <h4>READ THIS FIRST</h4>
-                                        <h6><i class="fa fa-clock-o"></i> 4 day ago</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc.</p>
-
-                                        <div class="separator3"></div>
-
-                                        <p class="blog_love"><i class="fa fa-heart-o"></i> 12</p>
-                                    </li>
-                                    <li class="single_blog_content">
-                                        <h4>READ THIS FIRST</h4>
-                                        <h6><i class="fa fa-clock-o"></i> 4 day ago</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc.</p>
-
-                                        <div class="separator3"></div>
-
-                                        <p class="blog_love"><i class="fa fa-heart-o"></i> 12</p>
-                                    </li>
-                                    <li class="single_blog_content">
-                                        <h4>READ THIS FIRST</h4>
-                                        <h6><i class="fa fa-clock-o"></i> 4 day ago</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc.</p>
-
-                                        <div class="separator3"></div>
-
-                                        <p class="blog_love"><i class="fa fa-heart-o"></i> 12</p>
-                                    </li>
-                                    <li class="single_blog_content">
-                                        <h4>READ THIS FIRST</h4>
-                                        <h6><i class="fa fa-clock-o"></i> 4 day ago</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc.</p>
-
-                                        <div class="separator3"></div>
-
-                                        <p class="blog_love"><i class="fa fa-heart-o"></i> 12</p>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="blog_btn">
-                                <a href="" class="btn btn-primary">VIEW ALL POSTS</a>
-                            </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/pages/category/Personal-Blog/Platefullofpassion-2045107178882862/">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-
-
-        <section id="testimonial" class="testimonial greenbackground">
-            <div class="container">
-                <div class="row">
-                    <div class="main_testimonial sections">
-                        <div class="head_title text-center">
-                            <p>PEOPLE IMPRESSIONS</p>
-
-                        </div>
-                        <div class="col-md-12" data-wow-delay="0.2s">
-                            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                                <!-- Bottom Carousel Indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#quote-carousel" data-slide-to="0" class="active">
-                                        <img class="img-responsive " src="assets/images/team1.jpg" alt="">
-
-                                    </li>
-                                    <li data-target="#quote-carousel" data-slide-to="1">
-                                        <img class="img-responsive" src="assets/images/team1.jpg" alt="">
-
-                                    </li>
-                                    <li data-target="#quote-carousel" data-slide-to="2">
-                                        <img class="img-responsive" src="assets/images/team1.jpg" alt="">
-
-                                    </li>
-                                    <li data-target="#quote-carousel" data-slide-to="3">
-                                        <img class="img-responsive" src="assets/images/team1.jpg" alt="">
-
-                                    </li>
-                                </ol>
-
-                                <!-- Carousel Slides / Quotes -->
-                                <div class="carousel-inner text-center">
-
-                                    <!-- Quote 1 -->
-                                    <div class="item active">
-                                        <blockquote>
-                                            <div class="row">
-                                                <div class="col-sm-8 col-sm-offset-2">
-                                                    <p class="impress">IMPRESSED ABOUT OUR THEME? </p>
-                                                    <div class="whiseparator"></div>
-                                                    <small>Someone famous</small>
-                                                </div>
-                                            </div>
-                                        </blockquote>
-                                    </div>
-                                    <!-- Quote 2 -->
-                                    <div class="item">
-                                        <blockquote>
-                                            <div class="row">
-                                                <div class="col-sm-8 col-sm-offset-2">
-                                                    <p class="impress">IMPRESSED ABOUT OUR THEME? </p>
-                                                    <div class="whiseparator"></div>
-                                                    <small>Someone famous</small>
-                                                </div>
-                                            </div>
-                                        </blockquote>
-                                    </div>
-                                    <!-- Quote 3 -->
-                                    <div class="item">
-                                        <blockquote>
-                                            <div class="row">
-                                                <div class="col-sm-8 col-sm-offset-2">
-                                                    <p class="impress">IMPRESSED ABOUT OUR THEME?</p>
-                                                    <div class="whiseparator"></div>
-                                                    <small>Someone famous</small>
-                                                </div>
-                                            </div>
-                                        </blockquote>
-                                    </div>
-                                    <!-- Quote 4 -->
-                                    <div class="item">
-                                        <blockquote>
-                                            <div class="row">
-                                                <div class="col-sm-8 col-sm-offset-2">
-                                                    <p class="impress">IMPRESSED ABOUT OUR THEME?</p>
-                                                    <div class="whiseparator"></div>
-                                                    <small>Someone famous</small>
-                                                </div>
-                                            </div>
-                                        </blockquote>
-                                    </div>
-                                </div>
-
-                                <!-- Carousel Buttons Next/Prev -->
-                                <!-- <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                                 <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>-->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <section id="counter" class="counter">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_counter sections">
-                        <div class="single_left_counter_bg">
-                            <div class="col-sm-12 col-xs-12">
-                                <div class="single_counter_left">
-                                    <h2>OUR <br /> NUMBERS <br /> OF COOKING</h2>
-                                    <p>salt and pepper</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-7 col-xs-12">
-                            <div class="single_counter_right_area text-center">
-                                <div class="row">
-                                    <div class="col-sm-4 ">
-                                        <div class="single_counter_right">
-                                            <i class="fa fa-comments-o"></i>
-                                            <h2 class="statistic-counter">423</h2>
-                                            <p>COMMENTS</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="single_counter_right">
-                                            <i class="fa fa-life-ring"></i>
-                                            <h2 class="statistic-counter">1,423</h2>
-                                            <p>RECIPES</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="single_counter_right">
-                                            <i class="fa fa-heart-o"></i>
-                                            <h2 class="statistic-counter">423</h2>
-                                            <p>LOVERS</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <!-- .col-md-4 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #footer close -->
+    <!--
+    footer-bottom  start
+    ============================= -->
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>Copyright &copy; 2020 - All Rights Reserved.Design and Developed By <a>Sunny Web Solutions</a></p>
                     </div>
                 </div>
             </div>
-        </section>
-
-
-        <section id="contact" class="footer_widget">
-            <div class="container">
-                <div class="row">
-                    <div class="main_widget">
-
-
-                        <div class="row">
-
-                            <div class="col-sm-4  col-xs-12">
-                                <div class="single_widget wow fadeIn" data-wow-duration="800ms">
-                                    <h4 class="footer_title">CONTACT</h4>
-                                    <div class="separator4"></div>
-                                    <ul>
-                                        <li><a href=""><i class="fa fa-envelope"></i> info@littlechefinme.com</a></li>
-                                        <li><a href=""><i class="fa fa-phone"></i> 1234567890</a></li>
-                                        <li><a href=""><i class="fa fa-map-marker"></i> BENGALURU, INDIA</a></li>
-                                        <li><a href=""><i class="fa fa-fax"></i> 1234567890</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-4 col-xs-12">
-                                <div class="single_widget wow fadeIn" data-wow-duration="800ms">
-                                    <h4 class="footer_title">LATEST NEWS</h4>
-                                    <div class="separator4"></div>
-
-                                    <div class="footer_gellary">
-                                        <img src="assets/images/fg1.jpg" alt="" />
-                                        <img src="assets/images/fg2.jpg" alt="" />
-                                        <img src="assets/images/fg3.jpg" alt="" />
-                                        <img src="assets/images/fg4.jpg" alt="" />
-                                        <img src="assets/images/fg5.jpg" alt="" />
-                                        <img src="assets/images/fg6.jpg" alt="" />
-                                        <img src="assets/images/fg7.jpg" alt="" />
-                                        <img src="assets/images/fg8.jpg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-4 col-xs-12">
-                                <div class="single_widget wow fadeIn" data-wow-duration="800ms">
-                                    <div class="footer_logo">
-                                        <img src="assets/images/footerlogo.png" alt="" />
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. 
-                                        Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. </p>
-                                    <p>Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. 
-                                        Etiam vehicula efficitur mi.</p>
-
-
-                                    <a class="weblink" href="">www.littlechefinme.com</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <footer id="footer" class="footer">
-            <div class="container">
-                <div class="main_footer">
-                    <div class="row">
-
-                        
-
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="footer_socail">
-                                <a href=""><i class="fa fa-facebook"></i></a>
-                                <a href=""><i class="fa fa-twitter"></i></a>
-                                <a href=""><i class="fa fa-google-plus"></i></a>
-                                <a href=""><i class="fa fa-rss"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-
-        <!-- START SCROLL TO TOP  -->
-
-        <div class="scrollup">
-            <a href="#"><i class="fa fa-chevron-up"></i></a>
         </div>
-
-        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-
-        <script src="assets/js/jquery.easypiechart.min.js"></script>
-        <script src="assets/js/portfolio.jquery.js"></script>
-        <script src="assets/js/jquery.mixitup.min.js"></script>
-        <script src="assets/js/jquery.easing.1.3.js"></script>
-        <script src="assets/css/skills/inview.min.js"></script>
-        <script src="assets/css/skills/progressbar.js"></script>
-        <script src="assets/css/skills/main.js"></script>
-        <!--This is link only for gmaps-->
-        <script src="http://maps.google.com/maps/api/js"></script>
-        <script src="assets/js/gmaps.min.js"></script>
-        <script>
-            var map = new GMaps({
-                el: '.ourmaps',
-                scrollwheel: false,
-                lat: -12.043333,
-                lng: -77.028333
-            });
-        </script>
-
-        
-
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-
-    </body>
+    </footer>
+	</body>
 </html>
